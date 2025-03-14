@@ -1,0 +1,1202 @@
+0dBFS level = 32768.0
+--Csound version 6.14 (double samples) 2020-11-20
+[commit: none]
+libsndfile-1.0.31
+UnifiedCSD:  /home/lomlhelwa/intro/index.csd
+STARTING FILE
+Creating options
+Creating orchestra
+closing tag
+Creating score
+rtaudio: ALSA module enabled
+rtmidi: ALSA Raw MIDI module enabled
+instr output uses instrument number 2
+instr loopback uses instrument number 3
+instr strings uses instrument number 4
+instr lead uses instrument number 5
+instr pluck uses instrument number 6
+instr bow uses instrument number 7
+Elapsed time at end of orchestra compile: real: 0.009s, CPU: 0.009s
+sorting score ...
+Warp_factor = 4.000000
+Clockbase = 16.000000
+... done
+Elapsed time at end of score sort: real: 0.012s, CPU: 0.012s
+graphics suppressed, ascii substituted
+0dBFS level = 1.0
+dim : 2
+***0 1 0.000000 1.570796
+WARNING: [mPair of speakers at 90.000000 and 0.000000 ignored
+[m
+[m
+Configured loudspeakers
+Pair 0 Loudspeakers: 1 2
+Matrix 1.000000 0.000000 -0.000000 1.000000
+
+ftable 101:
+WARNING: [mlibrary/prerequisites/mandpluk.aiff sr = 22050, orch sr = 48000.0[m
+[maudio sr = 22050, monaural
+opening AIFF infile library/prerequisites/mandpluk.aiff
+ftable 101:	8192 points, scalemax 1.000
+'
+
+_    '
+.         '
+_____________-_.___'-___________________________________________________________
+_    -       .  --'   '''   '''   '''
+'             '-
+_   ''
+_
+
+
+
+
+
+'
+orch now loaded
+audio buffered in 256 sample-frame blocks
+ALSA output: total buffer size: 1024, period size: 256
+writing 512 sample blks of 64-bit floats to dac
+SECTION 1:
+new alloc for instr output:
+new alloc for instr output:
+new alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.000 ..  0.001 T  0.001 TT  0.001 M:  0.00000  0.00000
+new alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.001 ..  0.003 T  0.001 TT  0.001 M:  0.00000  0.00000
+new alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mnew alloc for instr bow:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.003 ..  0.500 T  0.250 TT  0.250 M:  0.09268  0.09268
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.500 ..  0.501 T  0.251 TT  0.251 M:  0.00190  0.00190
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.501 ..  0.503 T  0.251 TT  0.251 M:  0.00015  0.00015
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.503 ..  1.000 T  0.500 TT  0.500 M:  0.09571  0.09571
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.000 ..  1.001 T  0.501 TT  0.501 M:  0.00175  0.00175
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.001 ..  1.003 T  0.501 TT  0.501 M:  0.00050  0.00050
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.003 ..  1.500 T  0.750 TT  0.750 M:  0.09668  0.09668
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.500 ..  1.501 T  0.751 TT  0.751 M:  0.00157  0.00157
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.501 ..  1.503 T  0.751 TT  0.751 M:  0.00056  0.00056
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.503 ..  2.000 T  1.000 TT  1.000 M:  0.08866  0.08866
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.000 ..  2.001 T  1.001 TT  1.001 M:  0.00178  0.00178
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.001 ..  2.003 T  1.001 TT  1.001 M:  0.00044  0.00044
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.003 ..  2.500 T  1.250 TT  1.250 M:  0.08648  0.08648
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.500 ..  2.501 T  1.251 TT  1.251 M:  0.00102  0.00102
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.501 ..  2.503 T  1.251 TT  1.251 M:  0.00060  0.00060
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.503 ..  3.000 T  1.500 TT  1.500 M:  0.08555  0.08555
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.000 ..  3.001 T  1.501 TT  1.501 M:  0.00109  0.00109
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.001 ..  3.003 T  1.501 TT  1.501 M:  0.00039  0.00039
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.003 ..  3.500 T  1.750 TT  1.750 M:  0.09869  0.09869
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.500 ..  3.501 T  1.751 TT  1.751 M:  0.00214  0.00214
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.501 ..  3.503 T  1.751 TT  1.751 M:  0.00044  0.00044
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.503 ..  4.000 T  2.000 TT  2.000 M:  0.09267  0.09267
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.000 ..  4.001 T  2.001 TT  2.001 M:  0.00135  0.00135
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.001 ..  4.003 T  2.001 TT  2.001 M:  0.00036  0.00036
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.003 ..  4.500 T  2.250 TT  2.250 M:  0.08863  0.08863
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.500 ..  4.501 T  2.251 TT  2.251 M:  0.00109  0.00109
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.501 ..  4.503 T  2.251 TT  2.251 M:  0.00066  0.00066
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.503 ..  5.000 T  2.500 TT  2.500 M:  0.09101  0.09101
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.000 ..  5.001 T  2.501 TT  2.501 M:  0.00241  0.00241
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.001 ..  5.003 T  2.501 TT  2.501 M:  0.00050  0.00050
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.003 ..  5.500 T  2.750 TT  2.750 M:  0.06888  0.06888
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.500 ..  5.501 T  2.751 TT  2.751 M:  0.00123  0.00123
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.501 ..  5.503 T  2.751 TT  2.751 M:  0.00012  0.00012
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.503 ..  6.000 T  3.000 TT  3.000 M:  0.07889  0.07889
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.000 ..  6.001 T  3.001 TT  3.001 M:  0.00094  0.00094
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.001 ..  6.003 T  3.001 TT  3.001 M:  0.00036  0.00036
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.003 ..  6.500 T  3.250 TT  3.250 M:  0.08162  0.08162
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.500 ..  6.501 T  3.251 TT  3.251 M:  0.00177  0.00177
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.501 ..  6.503 T  3.251 TT  3.251 M:  0.00045  0.00045
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.503 ..  7.000 T  3.500 TT  3.500 M:  0.07747  0.07747
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.000 ..  7.001 T  3.501 TT  3.501 M:  0.00110  0.00110
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.001 ..  7.003 T  3.501 TT  3.501 M:  0.00031  0.00031
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.003 ..  7.500 T  3.750 TT  3.750 M:  0.07650  0.07650
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.500 ..  7.501 T  3.751 TT  3.751 M:  0.00036  0.00036
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.501 ..  7.503 T  3.751 TT  3.751 M:  0.00034  0.00034
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.503 ..  8.000 T  4.000 TT  4.000 M:  0.07971  0.07971
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.000 ..  8.001 T  4.001 TT  4.001 M:  0.00160  0.00160
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.001 ..  8.003 T  4.001 TT  4.001 M:  0.00037  0.00037
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.003 ..  8.500 T  4.250 TT  4.250 M:  0.09146  0.09146
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.500 ..  8.501 T  4.251 TT  4.251 M:  0.00145  0.00145
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.501 ..  8.503 T  4.251 TT  4.251 M:  0.00046  0.00046
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.503 ..  9.000 T  4.500 TT  4.500 M:  0.10066  0.10066
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.000 ..  9.001 T  4.501 TT  4.501 M:  0.00123  0.00123
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.001 ..  9.003 T  4.501 TT  4.501 M:  0.00074  0.00074
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.003 ..  9.500 T  4.750 TT  4.750 M:  0.08648  0.08648
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.500 ..  9.501 T  4.751 TT  4.751 M:  0.00179  0.00179
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.501 ..  9.503 T  4.751 TT  4.751 M:  0.00026  0.00026
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.503 .. 10.000 T  5.000 TT  5.000 M:  0.08228  0.08228
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.000 .. 10.001 T  5.001 TT  5.001 M:  0.00076  0.00076
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.001 .. 10.003 T  5.001 TT  5.001 M:  0.00056  0.00056
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.003 .. 10.500 T  5.250 TT  5.250 M:  0.07701  0.07701
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.500 .. 10.501 T  5.251 TT  5.251 M:  0.00128  0.00128
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.501 .. 10.503 T  5.251 TT  5.251 M:  0.00050  0.00050
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.503 .. 11.000 T  5.500 TT  5.500 M:  0.11351  0.11351
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.000 .. 11.001 T  5.501 TT  5.501 M:  0.00068  0.00068
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.001 .. 11.003 T  5.501 TT  5.501 M:  0.00050  0.00050
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.003 .. 11.500 T  5.750 TT  5.750 M:  0.09185  0.09185
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.500 .. 11.501 T  5.751 TT  5.751 M:  0.00115  0.00115
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.501 .. 11.503 T  5.751 TT  5.751 M:  0.00040  0.00040
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.503 .. 12.000 T  6.000 TT  6.000 M:  0.08547  0.08547
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.000 .. 12.001 T  6.001 TT  6.001 M:  0.00218  0.00218
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.001 .. 12.003 T  6.001 TT  6.001 M:  0.00052  0.00052
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.003 .. 12.500 T  6.250 TT  6.250 M:  0.10423  0.10423
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.500 .. 12.501 T  6.251 TT  6.251 M:  0.00162  0.00162
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.501 .. 12.503 T  6.251 TT  6.251 M:  0.00022  0.00022
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.503 .. 13.000 T  6.500 TT  6.500 M:  0.07389  0.07389
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.000 .. 13.001 T  6.501 TT  6.501 M:  0.00194  0.00194
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.001 .. 13.003 T  6.501 TT  6.501 M:  0.00061  0.00061
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.003 .. 13.500 T  6.750 TT  6.750 M:  0.09587  0.09587
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.500 .. 13.501 T  6.751 TT  6.751 M:  0.00107  0.00107
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.501 .. 13.503 T  6.751 TT  6.751 M:  0.00059  0.00059
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.503 .. 14.000 T  7.000 TT  7.000 M:  0.08142  0.08142
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.000 .. 14.001 T  7.001 TT  7.001 M:  0.00076  0.00076
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.001 .. 14.003 T  7.001 TT  7.001 M:  0.00045  0.00045
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.003 .. 14.500 T  7.250 TT  7.250 M:  0.06956  0.06956
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.500 .. 14.501 T  7.251 TT  7.251 M:  0.00183  0.00183
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.501 .. 14.503 T  7.251 TT  7.251 M:  0.00024  0.00024
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.503 .. 15.000 T  7.500 TT  7.500 M:  0.09828  0.09828
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 15.000 .. 15.001 T  7.501 TT  7.501 M:  0.00266  0.00266
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 15.001 .. 15.003 T  7.501 TT  7.501 M:  0.00050  0.00050
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 15.003 .. 15.500 T  7.750 TT  7.750 M:  0.07611  0.07611
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 15.500 .. 15.501 T  7.751 TT  7.751 M:  0.00198  0.00198
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 15.501 .. 15.503 T  7.751 TT  7.751 M:  0.00052  0.00052
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 15.503 .. 16.000 T  8.000 TT  8.000 M:  0.09434  0.09434
+new alloc for instr loopback:
+end of section 1	 sect peak amps:  0.11351  0.11351
+SECTION 1:
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.000 ..  0.001 T  0.001 TT  0.001 M:  0.00195  0.00195
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.001 ..  0.003 T  0.001 TT  0.001 M:  0.00000  0.00000
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.003 ..  0.500 T  0.250 TT  0.250 M:  0.08029  0.08029
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.500 ..  0.501 T  0.251 TT  0.251 M:  0.00190  0.00190
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.501 ..  0.503 T  0.251 TT  0.251 M:  0.00047  0.00047
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  0.503 ..  1.000 T  0.500 TT  0.500 M:  0.08667  0.08667
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.000 ..  1.001 T  0.501 TT  0.501 M:  0.00163  0.00163
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.001 ..  1.003 T  0.501 TT  0.501 M:  0.00045  0.00045
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.003 ..  1.500 T  0.750 TT  0.750 M:  0.07826  0.07826
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.500 ..  1.501 T  0.751 TT  0.751 M:  0.00106  0.00106
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.501 ..  1.503 T  0.751 TT  0.751 M:  0.00017  0.00017
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  1.503 ..  2.000 T  1.000 TT  1.000 M:  0.09169  0.09169
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.000 ..  2.001 T  1.001 TT  1.001 M:  0.00158  0.00158
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.001 ..  2.003 T  1.001 TT  1.001 M:  0.00040  0.00040
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.003 ..  2.500 T  1.250 TT  1.250 M:  0.08366  0.08366
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.500 ..  2.501 T  1.251 TT  1.251 M:  0.00118  0.00118
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.501 ..  2.503 T  1.251 TT  1.251 M:  0.00057  0.00057
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  2.503 ..  3.000 T  1.500 TT  1.500 M:  0.10004  0.10004
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.000 ..  3.001 T  1.501 TT  1.501 M:  0.00189  0.00189
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.001 ..  3.003 T  1.501 TT  1.501 M:  0.00068  0.00068
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.003 ..  3.500 T  1.750 TT  1.750 M:  0.08682  0.08682
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.500 ..  3.501 T  1.751 TT  1.751 M:  0.00103  0.00103
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.501 ..  3.503 T  1.751 TT  1.751 M:  0.00028  0.00028
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  3.503 ..  4.000 T  2.000 TT  2.000 M:  0.07822  0.07822
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.000 ..  4.001 T  2.001 TT  2.001 M:  0.00176  0.00176
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.001 ..  4.003 T  2.001 TT  2.001 M:  0.00030  0.00030
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.003 ..  4.500 T  2.250 TT  2.250 M:  0.09931  0.09931
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.500 ..  4.501 T  2.251 TT  2.251 M:  0.00093  0.00093
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.501 ..  4.503 T  2.251 TT  2.251 M:  0.00085  0.00085
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  4.503 ..  5.000 T  2.500 TT  2.500 M:  0.09561  0.09561
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.000 ..  5.001 T  2.501 TT  2.501 M:  0.00216  0.00216
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.001 ..  5.003 T  2.501 TT  2.501 M:  0.00070  0.00070
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.003 ..  5.500 T  2.750 TT  2.750 M:  0.11175  0.11175
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.500 ..  5.501 T  2.751 TT  2.751 M:  0.00228  0.00228
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.501 ..  5.503 T  2.751 TT  2.751 M:  0.00055  0.00055
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  5.503 ..  6.000 T  3.000 TT  3.000 M:  0.09200  0.09200
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.000 ..  6.001 T  3.001 TT  3.001 M:  0.00113  0.00113
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.001 ..  6.003 T  3.001 TT  3.001 M:  0.00063  0.00063
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.003 ..  6.500 T  3.250 TT  3.250 M:  0.07729  0.07729
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.500 ..  6.501 T  3.251 TT  3.251 M:  0.00190  0.00190
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.501 ..  6.503 T  3.251 TT  3.251 M:  0.00095  0.00095
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  6.503 ..  7.000 T  3.500 TT  3.500 M:  0.08277  0.08277
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.000 ..  7.001 T  3.501 TT  3.501 M:  0.00118  0.00118
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.001 ..  7.003 T  3.501 TT  3.501 M:  0.00039  0.00039
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.003 ..  7.500 T  3.750 TT  3.750 M:  0.10213  0.10213
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.500 ..  7.501 T  3.751 TT  3.751 M:  0.00137  0.00137
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.501 ..  7.503 T  3.751 TT  3.751 M:  0.00064  0.00064
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  7.503 ..  8.000 T  4.000 TT  4.000 M:  0.07641  0.07641
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.000 ..  8.001 T  4.001 TT  4.001 M:  0.00109  0.00109
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.001 ..  8.003 T  4.001 TT  4.001 M:  0.00076  0.00076
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.003 ..  8.500 T  4.250 TT  4.250 M:  0.08656  0.08656
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.500 ..  8.501 T  4.251 TT  4.251 M:  0.00238  0.00238
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.501 ..  8.503 T  4.251 TT  4.251 M:  0.00048  0.00048
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  8.503 ..  9.000 T  4.500 TT  4.500 M:  0.10467  0.10467
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.000 ..  9.001 T  4.501 TT  4.501 M:  0.00153  0.00153
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.001 ..  9.003 T  4.501 TT  4.501 M:  0.00065  0.00065
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.003 ..  9.500 T  4.750 TT  4.750 M:  0.08354  0.08354
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.500 ..  9.501 T  4.751 TT  4.751 M:  0.00105  0.00105
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.501 ..  9.503 T  4.751 TT  4.751 M:  0.00055  0.00055
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB  9.503 .. 10.000 T  5.000 TT  5.000 M:  0.08061  0.08061
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.000 .. 10.001 T  5.001 TT  5.001 M:  0.00125  0.00125
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.001 .. 10.003 T  5.001 TT  5.001 M:  0.00051  0.00051
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.003 .. 10.500 T  5.250 TT  5.250 M:  0.07525  0.07525
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.500 .. 10.501 T  5.251 TT  5.251 M:  0.00156  0.00156
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.501 .. 10.503 T  5.251 TT  5.251 M:  0.00066  0.00066
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 10.503 .. 11.000 T  5.500 TT  5.500 M:  0.09510  0.09510
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.000 .. 11.001 T  5.501 TT  5.501 M:  0.00137  0.00137
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.001 .. 11.003 T  5.501 TT  5.501 M:  0.00049  0.00049
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.003 .. 11.500 T  5.750 TT  5.750 M:  0.09458  0.09458
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.500 .. 11.501 T  5.751 TT  5.751 M:  0.00177  0.00177
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.501 .. 11.503 T  5.751 TT  5.751 M:  0.00062  0.00062
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 11.503 .. 12.000 T  6.000 TT  6.000 M:  0.07083  0.07083
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.000 .. 12.001 T  6.001 TT  6.001 M:  0.00150  0.00150
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.001 .. 12.003 T  6.001 TT  6.001 M:  0.00010  0.00010
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.003 .. 12.500 T  6.250 TT  6.250 M:  0.07636  0.07636
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.500 .. 12.501 T  6.251 TT  6.251 M:  0.00144  0.00144
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.501 .. 12.503 T  6.251 TT  6.251 M:  0.00025  0.00025
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 12.503 .. 13.000 T  6.500 TT  6.500 M:  0.07044  0.07044
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.000 .. 13.001 T  6.501 TT  6.501 M:  0.00110  0.00110
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.001 .. 13.003 T  6.501 TT  6.501 M:  0.00074  0.00074
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.003 .. 13.500 T  6.750 TT  6.750 M:  0.07509  0.07509
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.500 .. 13.501 T  6.751 TT  6.751 M:  0.00199  0.00199
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.501 .. 13.503 T  6.751 TT  6.751 M:  0.00091  0.00091
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 13.503 .. 14.000 T  7.000 TT  7.000 M:  0.10516  0.10516
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.000 .. 14.001 T  7.001 TT  7.001 M:  0.00158  0.00158
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.001 .. 14.003 T  7.001 TT  7.001 M:  0.00053  0.00053
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.003 .. 14.500 T  7.250 TT  7.250 M:  0.08427  0.08427
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.500 .. 14.501 T  7.251 TT  7.251 M:  0.00081  0.00081
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mB 14.501 .. 14.503 T  7.251 TT  7.251 M:  0.00028  0.00028
+WARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[mWARNING: [minstr bow uses 9 p-fields but is given 6[m
+[m
+csound command: Interrupt
+inactive allocs returned to freespace
+end of score.		   overall amps:  0.11351  0.11351
+overall samples out of range:        0        0
+0 errors in performance
+Elapsed time at end of performance: real: 15.578s, CPU: 3.354s

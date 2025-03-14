@@ -1,0 +1,35 @@
+instr lead
+
+$setup
+
+iAttack init iRhythm / 2^5
+iDecay init iRhythm / 2^3
+iRelease init iRhythm - iAttack - iDecay
+
+iSustain init 0; 1/2^13
+
+aAmplitude adsr iAttack, iDecay, iSustain, iRelease
+
+iShift init 3
+
+iOctave init 60
+
+iNote += iOctave
+
+aFrequency linsegr cpsmidinn ( iNote + iShift ), iRhythm / 2^5, cpsmidinn ( iNote ), iRelease, cpsmidinn ( iNote - iShift )
+
+aClip rspline 0, 1, 0, iMeasure
+
+aSkew rspline 0, 1, 0, iMeasure
+
+aNote squinewave aFrequency, aClip, aSkew
+
+aNote *= aAmplitude
+
+aNote butterlp aNote, aFrequency * 2^4
+
+aNote butterhp aNote, aFrequency / 2^2
+
+$mix
+
+endin

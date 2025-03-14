@@ -1,0 +1,77 @@
+giMandol ftgen 0, 0, 8192, 1, "library/prerequisites/mandpluk.aiff", 0, 0, 0
+
+instr pluck
+
+$setup
+
+iAttack init iRhythm / 2^10
+iDecay init iRhythm / 2
+iRelease init iRhythm - iAttack - iDecay
+
+iSustain init 1/2^3
+
+kAmplitude adsr iAttack, iDecay, iSustain, iRelease
+
+iShift init 7
+iOctave init 60
+iNote += iOctave
+
+kFrequency linseg cpsmidinn ( iNote + iShift ), iRhythm / 2^8, cpsmidinn ( iNote )
+
+aWave = 0
+
+aWave1 vco2 kAmplitude, kFrequency/2, 4, .05
+
+aWave += aWave1 / 1
+
+aWave2a vco2 kAmplitude, kFrequency * 2, 4, .95
+
+aWave += aWave2a / 2
+
+aWave2b vco2 kAmplitude, kFrequency/2, 10, .5
+
+aWave += aWave2b / 2
+
+aClip jspline .5, 0, 4
+aClip += .5
+
+aSkew jspline .5, 0, 4
+aSkew += .5
+
+aWave3 squinewave a ( kFrequency * 2 ), aClip, aSkew
+
+aWave3 *= kAmplitude
+
+aWave += aWave3 / 2
+
+aWave4 pluck kAmplitude, kFrequency, cpsmidinn ( iNote ), 0, 6
+
+aWave += aWave4
+
+aWave5 pluck kAmplitude, kFrequency, cpsmidinn ( iNote ), 0, 1
+
+aWave += aWave5
+
+aWave6 pluck kAmplitude, kFrequency, cpsmidinn ( iNote ), 0, 2, 2
+
+aWave += aWave6
+
+kPluck init .4
+
+kDetune init 1
+
+kGain init 1
+
+kSize init 3
+
+aWave7 mandol kAmplitude, kFrequency / 2^0, kPluck, kDetune, kGain, kSize, giMandol
+
+aWave += aWave7 / 2
+
+aNote butterlp aWave, kFrequency * 2^4
+
+aNote butterhp aNote, kFrequency / 2^1
+
+$mix
+
+endin

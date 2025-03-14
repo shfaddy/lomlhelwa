@@ -1,0 +1,23 @@
+instr sampler
+
+$setup
+
+SName strget p8
+
+SFile strcat SName, ".wav"
+
+p3 filelen SFile
+
+kScale init cent ( iNote * 100 )
+
+aInput diskin2 SFile
+
+fInput pvsanal aInput, 1024, 256, 1024, 1
+
+fScale pvscale fInput, kScale, 1, 1
+
+aNote pvsynth fScale
+
+$mix
+
+endin

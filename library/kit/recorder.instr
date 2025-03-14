@@ -1,0 +1,15 @@
+instr recorder
+
+$setup
+
+SName strget p8
+
+iStamp date
+
+SRecording sprintf "%s.%d.%d.wav", SName, iChannel, iStamp
+
+aRecording inch iChannel + 1
+
+fout SRecording, -1, aRecording
+
+endin

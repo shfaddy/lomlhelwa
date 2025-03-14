@@ -1,0 +1,53 @@
+#options -o dac
+intro.wav
+
+#features sr/48000 ksmps/32 nchnls/2 0dbfs/1
+
+#system 0 90
+
+#orchestra library/kit/strings.instr library/kit/lead.instr library/kit/pluck.instr
+#orchestra library/kit/bow.instr
+
+#tempo 120
+#measure 4
+#length 4
+
+#nota library/notation/faddys.nota
+
+#style cello 1/128 0/5 -12/15 -24/20
+#style double 1/128 0/1 .05/1
+
+#key 5
+
+#pick bow/12/5/cello bow/0/30/cello bow/4/30/cello bow/6/30/cello bow/11/30/cello
+
+#clock start
+
+#nota idea.1.nota
+
+#note 2/1/2 #repeat
+
+/#note 1/1/4 C
+
+#note 1/1/1 #repeat
+
+#clock start
+
+#key 5
+
+#pick pluck/0/30/cello pluck/4/30/cello pluck/6/30/cello pluck/11/30/cello
+
+/#nota idea.2.nota
+
+#clock start
+
+#key 17
+
+#pick pluck/0/5/cello
+ pluck/12.01/50/cello pluck/12.02/50/cello pluck/-12.01/50/cello pluck/-12.02/50/cello
+
+/#nota idea.3.nota
+
+#scene
+
+#loopback

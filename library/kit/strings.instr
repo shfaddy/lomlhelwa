@@ -1,0 +1,86 @@
+instr strings
+
+$setup
+
+aNote = 0
+
+if iRhythm > iMeasure / 2^3 then
+
+iEnvelope init iMeasure / 2^3
+
+else
+
+iEnvelope init iRhythm
+
+endif
+
+iAttack init iEnvelope / 2^1
+iDecay init iEnvelope / 2^3
+iRelease init iRhythm - iAttack - iDecay
+
+iSustain init 1
+
+aAmplitude adsr iAttack, iDecay, iSustain, iRelease
+
+aVibrate rspline .75, 1, 0, iEnvelope / 2^8
+
+aAmplitude *= aVibrate
+
+iShift init 240
+
+iOctave init 60
+
+iNote += iOctave
+
+iAttack init iAttack / 2^13
+iDecay init iRhythm - iAttack - iEnvelope / 2^9
+iRelease init iRhythm - iAttack - iDecay
+
+aFrequency linseg cpsmidinn ( iNote + iShift ), iAttack, cpsmidinn ( iNote ), iDecay, cpsmidinn ( iNote ), iRelease, cpsmidinn ( iNote + 3 )
+
+aDetune rspline -2.5, 2.5, 0, iRhythm
+
+aFrequency *= cent ( aDetune )
+
+aZz vco2 k ( aAmplitude ), k ( aFrequency ), 6
+
+aZz butterlp aZz, aFrequency * 2^2
+
+aFilter linseg 2^13, iAttack, 2^0
+
+aZz butterhp aZz, aFrequency * aFilter * 2^1
+
+aNote += aZz/1
+
+aClip rspline .0, 1, 0, iMeasure
+aSkew rspline .0, 1, 0, iMeasure
+
+aBody squinewave aFrequency * 2^0, aClip, aSkew
+
+aBody *= aAmplitude
+
+aBody butterlp aBody, aFrequency * 2^2
+
+aBody butterhp aBody, aFrequency / 2^1
+
+aNote += aBody
+
+aBody vco2 k ( aAmplitude ), k ( aFrequency )
+
+aBody butterlp aBody, aFrequency * 1
+
+aBody butterhp aBody, aFrequency / 2
+
+aNote += aBody
+
+aWood dust k ( aAmplitude ), k ( aFrequency * 2^2 )
+
+aWood butterlp aWood, aFrequency * 2^2
+
+aWood butterhp aWood, aFrequency * 2^2
+
+;aNote += aWood / 2
+
+$mix
+
+endin
