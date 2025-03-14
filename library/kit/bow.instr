@@ -35,7 +35,7 @@ iAttack init iAttack / 2^13
 iDecay init iRhythm - iAttack - iEnvelope / 2^9
 iRelease init iRhythm - iAttack - iDecay
 
-kFrequency linseg cpsmidinn ( iNote + iShift ), iAttack, cpsmidinn ( iNote ), iDecay, cpsmidinn ( iNote ), iRelease, cpsmidinn ( iNote - 1 )
+kFrequency linseg cpsmidinn ( iNote + iShift ), iAttack, cpsmidinn ( iNote ), iDecay, cpsmidinn ( iNote ), iRelease, cpsmidinn ( iNote + .1 )
 
 kDetune rspline -2.5, 2.5, 0, iRhythm
 

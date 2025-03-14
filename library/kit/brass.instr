@@ -1,5 +1,79 @@
 instr brass
 
+$setup
 
+aNote = 0
+
+if iRhythm > iMeasure / 2^3 then
+
+iEnvelope init iMeasure / 2^3
+
+else
+
+iEnvelope init iRhythm
+
+endif
+
+iAttack init iEnvelope / 2^3
+iDecay init iEnvelope / 2^5
+iRelease init iRhythm - iAttack - iDecay
+
+iSustain init 1
+
+iShift init 240
+iOctave init 60
+iNote += iOctave
+iFrequency init cpsmidinn ( iNote )
+
+kAmplitude adsr iAttack, iDecay, iSustain, iRelease
+
+iAmplitude init .99
+iAmplitudeError init .01
+kAmplitudeError rspline iAmplitude - iAmplitudeError, iAmplitude + iAmplitudeError, 0, iRhythm
+
+iAttack init iAttack / 2^13
+iDecay init iRhythm - iAttack - iEnvelope / 2^9
+iRelease init iRhythm - iAttack - iDecay
+
+kFrequency linseg cpsmidinn ( iNote + iShift ), iAttack, cpsmidinn ( iNote ), iDecay, cpsmidinn ( iNote ), iRelease, cpsmidinn ( iNote - 1 )
+
+kDetune rspline -2.5, 2.5, 0, iRhythm
+
+kFrequency *= cent ( kDetune )
+
+iPressure init 5
+iPressureError init .01
+; 1 - 5
+kPressure rspline iPressure - iPressureError, iPressure + iPressureError, 0, iRhythm
+
+iPosition init .15
+iPositionError init .003
+; .025 - .23
+kPosition rspline iPosition - iPositionError, iPosition + iPositionError, 0, iRhythm
+
+iVibratoFrequency init .025
+iVibratoFrequencyError init .0001
+; 0 - 12
+kVibratoFrequency rspline iVibratoFrequency - iVibratoFrequencyError, iVibratoFrequency + iVibratoFrequencyError, 0, iRhythm
+
+iVibratoAmplitude init .025
+iVibratoAmplitudeError init .01
+kVibratoAmplitude rspline iVibratoAmplitude - iVibratoAmplitudeError, iVibratoAmplitude + iVibratoAmplitudeError, 0, iRhythm
+
+aBody wgbow kAmplitude, iFrequency, kPressure, kPosition, kVibratoFrequency, kVibratoAmplitude
+
+;aNote += aBody
+
+aZz vco2 kAmplitude, kFrequency, 6
+
+aZz butterlp aZz, kFrequency * 2^2
+
+kFilter linseg 2^13, iAttack, 2^0
+
+aZz butterhp aZz, kFrequency * kFilter * 2^1
+
+aNote += aZz
+
+$mix
 
 endin
